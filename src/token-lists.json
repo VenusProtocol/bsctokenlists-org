@@ -1,26 +1,6 @@
 {
-  "tokens.1inch.eth": {
-    "name": "1inch",
-    "homepage": ""
-  },
-  "tokenlist.aave.eth": {
-    "name": "Aave Token List",
-    "homepage": ""
-  },
-  "datafi.theagora.eth": {
-    "name": "Agora dataFi Tokens",
-    "homepage": ""
-  },
-  "defi.cmc.eth": {
-    "name": "CMC DeFi",
-    "homepage": ""
-  },
-  "stablecoin.cmc.eth": {
-    "name": "CMC Stablecoin",
-    "homepage": ""
-  },
-  "https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json": {
-    "name": "Compound",
-    "homepage": ""
+  "https://tokens.venus.io": {
+    "name": "Venus Protocol",
+    "homepage": "https://venus.io"
   }
 }
