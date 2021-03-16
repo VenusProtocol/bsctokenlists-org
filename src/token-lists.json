@@ -2,5 +2,9 @@
   "https://tokens.venus.io": {
     "name": "Venus Protocol",
     "homepage": "https://venus.io"
+  },
+  "https://tokens.swipe.org": {
+    "name": "Swipe Swap",
+    "homepage": "https://swipe.org"
   }
 }
