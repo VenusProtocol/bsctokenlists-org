@@ -94,7 +94,7 @@ export default function Header() {
       >
         {'->'} Make your own
       </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.bsctokenlists.org/">
+      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.venus.io/">
         {'->'} Community
       </HoverLink>
     </Hero>
