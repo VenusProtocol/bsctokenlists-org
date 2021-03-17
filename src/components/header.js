@@ -70,7 +70,7 @@ export default function Header({ back }) {
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.bsctokenlists.org/">
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.venus.io/">
           Community
         </a>
         <a
