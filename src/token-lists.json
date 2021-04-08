@@ -10,7 +10,7 @@
   "https://gateway.pinata.cloud/ipfs/QmdKy1K5TMzSHncLzUXUJdvKi1tHRmJocDRfmCXxW5mshS": {
     "name": "PancakeSwap",
     "homepage": "https://pancakeswap.finance"
-  }
+  },
   "https://api.borgswap.exchange/tokens.json": {
     "name": "BORGSWAP",
     "homepage": "https://borgswap.exchange"
