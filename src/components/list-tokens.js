@@ -82,7 +82,7 @@ export const ListItem = memo(function ListItem({ token }) {
           alt={`${token.name} token icon`}
           src={
             !token.logoURI
-              ? `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${toChecksumAddress(
+              ? `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/${toChecksumAddress(
                   token.address
                 )}/logo.png`
               : token.logoURI.startsWith('ipfs')
@@ -96,7 +96,7 @@ export const ListItem = memo(function ListItem({ token }) {
         />
 
         <span className="hide-small">
-          <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(token.address)}`}>
+          <a style={{ textAlign: 'right' }} href={`https://bscscan.com/address/${toChecksumAddress(token.address)}`}>
             {token.name}
           </a>
         </span>
@@ -111,7 +111,7 @@ export const ListItem = memo(function ListItem({ token }) {
         )}
       </TokenTagWrapper>
       <TokenAddress>
-        <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(token.address)}`}>
+        <a style={{ textAlign: 'right' }} href={`https://bscscan.com/address/${toChecksumAddress(token.address)}`}>
           {`${toChecksumAddress(token.address)?.slice(0, 6)}...${toChecksumAddress(token.address)?.slice(38, 42)}`}
         </a>
         <CopyHelper toCopy={token.address} />
